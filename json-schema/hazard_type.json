@@ -1,0 +1,47 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "./hazards.json",
+    "title": "Specific Hazards Schema",
+    "description": "Schema for defining specific hazards in the Hazard STAC Extension.",
+    "oneOf": [
+      {
+        "$comment": "This schema extends the base hazard schema with specific hazard types.",
+        "allOf": [
+          {
+            "$ref": "./schema.json"
+          },
+          {
+            "type": "object",
+            "properties": {
+              "osc-hazard:hazard_type": {
+                "type": "string",
+                "description": "The specific type of hazard.",
+                "enum": [
+                  "ChronicHeat",
+                  "AirTemperature",
+                  "ChronicWind",
+                  "CoastalInundation",
+                  "CombinedInundation",
+                  "Drought",
+                  "Fire",
+                  "Hail",
+                  "Hazard",
+                  "Inundation",
+                  "PluvialInundation",
+                  "Precipitation",
+                  "RiverineInundation",
+                  "WaterRisk",
+                  "WaterTemperature",
+                  "Wind"
+                ]
+              }
+            },
+            "required": [
+              "osc-hazard:hazard_type"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

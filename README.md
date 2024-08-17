@@ -1,14 +1,14 @@
-# Template Extension Specification
+# OS-C Hazard Specification
 
-- **Title:** Template
-- **Identifier:** <https://stac-extensions.github.io/template/v1.0.0/schema.json>
-- **Field Name Prefix:** template
+- **Title:** OS-C Hazard Specification
+- **Identifier:** <https://sparkgeo.github.io/hazard-extension/v1.0.0/schema.json>
+- **Field Name Prefix:** osc-hazard
 - **Scope:** Item, Collection
 - **Extension [Maturity Classification](https://github.com/radiantearth/stac-spec/tree/master/extensions/README.md#extension-maturity):** Proposal
-- **Owner**: @your-gh-handles @person2
+- **Owner**: @sparkgeo
 
-This document explains the Template Extension to the [SpatioTemporal Asset Catalog](https://github.com/radiantearth/stac-spec) (STAC) specification.
-This is the place to add a short introduction.
+This document explains the OS-C Hazard extension to the [SpatioTemporal Asset Catalog](https://github.com/radiantearth/stac-spec) (STAC) specification.
+
 
 - Examples:
   - [Item example](examples/item.json): Shows the basic usage of the extension in a STAC Item
